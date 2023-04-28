@@ -2,6 +2,8 @@ package uf4.exam;
 
 import java.util.*;
 
+import java.util.*;
+
 public class ReservaHabitacio {
 
     private int numReserva;
