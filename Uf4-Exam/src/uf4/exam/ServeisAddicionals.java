@@ -18,31 +18,32 @@ public class ServeisAddicionals {
         return tipusServei;
     }
 
-    public String getData() {
-        return data;
-    }
-
-    public String getEstablimentOrigen() {
-        return establimentOrigen;
-    }
-
-    public double getImportTotal() {
-        return importTotal;
-    }
-
     public void setTipusServei(String tipusServei) {
         this.tipusServei = tipusServei;
+    }
+
+    public String getData() {
+        return data;
     }
 
     public void setData(String data) {
         this.data = data;
     }
 
+    public String getEstablimentOrigen() {
+        return establimentOrigen;
+    }
+
     public void setEstablimentOrigen(String establimentOrigen) {
         this.establimentOrigen = establimentOrigen;
+    }
+
+    public double getImportTotal() {
+        return importTotal;
     }
 
     public void setImportTotal(double importTotal) {
         this.importTotal = importTotal;
     }
+
 }

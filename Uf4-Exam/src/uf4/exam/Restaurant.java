@@ -15,15 +15,16 @@ public class Restaurant extends ServeisAddicionals {
         return platsDemanats;
     }
 
-    public int getNumTaula() {
-        return numTaula;
-    }
-
     public void setPlatsDemanats(String platsDemanats) {
         this.platsDemanats = platsDemanats;
+    }
+
+    public int getNumTaula() {
+        return numTaula;
     }
 
     public void setNumTaula(int numTaula) {
         this.numTaula = numTaula;
     }
+
 }
