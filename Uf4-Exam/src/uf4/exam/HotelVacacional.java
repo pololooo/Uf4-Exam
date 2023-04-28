@@ -2,51 +2,38 @@ package uf4.exam;
 
 public class HotelVacacional extends Hotel {
 
-    private int numPiscinas;
-    private boolean actividadesAcuaticas;
-    private String programaEntretenimiento;
+    private int numPiscines;
+    private boolean activitatsAquàtiques;
+    private String programesEntreteniment;
 
-    public HotelVacacional(String nombre, String poblacion, int numHabitaciones, double precioBasePersonaNoche, int numPiscinas, boolean actividadesAcuaticas, String programaEntretenimiento) {
-        super(nombre, poblacion, numHabitaciones, precioBasePersonaNoche);
-        this.numPiscinas = numPiscinas;
-        this.actividadesAcuaticas = actividadesAcuaticas;
-        this.programaEntretenimiento = programaEntretenimiento;
+    public HotelVacacional(String nom, String poblacio, int numHabitacions, double preuBase, int numPiscines, boolean activitatsAquàtiques, String programesEntreteniment) {
+        super(nom, poblacio, numHabitacions, preuBase);
+        this.numPiscines = numPiscines;
+        this.activitatsAquàtiques = activitatsAquàtiques;
+        this.programesEntreteniment = programesEntreteniment;
     }
 
-    public int getNumPiscinas() {
-        return numPiscinas;
+    public int getNumPiscines() {
+        return numPiscines;
     }
 
-    public boolean isActividadesAcuaticas() {
-        return actividadesAcuaticas;
+    public void setNumPiscines(int numPiscines) {
+        this.numPiscines = numPiscines;
     }
 
-    public String getProgramaEntretenimiento() {
-        return programaEntretenimiento;
+    public boolean isActivitatsAquàtiques() {
+        return activitatsAquàtiques;
     }
 
-    public void setNumPiscinas(int numPiscinas) {
-        this.numPiscinas = numPiscinas;
+    public void setActivitatsAquàtiques(boolean activitatsAquàtiques) {
+        this.activitatsAquàtiques = activitatsAquàtiques;
     }
 
-    public void setActividadesAcuaticas(boolean actividadesAcuaticas) {
-        this.actividadesAcuaticas = actividadesAcuaticas;
+    public String getProgramesEntreteniment() {
+        return programesEntreteniment;
     }
 
-    public void setProgramaEntretenimiento(String programaEntretenimiento) {
-        this.programaEntretenimiento = programaEntretenimiento;
-    }
-
-    @Override
-    public String toString() {
-        return "HotelVacacional{"
-                + "nombre='" + nombre + '\''
-                + ", poblacion='" + poblacion + '\''
-                + ", numHabitaciones=" + numHabitaciones
-                + ", precioBasePersonaNoche=" + precioBasePersonaNoche
-                + ", numPiscinas=" + numPiscinas
-                + ", actividadesAcuaticas=" + actividadesAcuaticas
-                + ", programaEntretenimiento='" + programaEntretenimiento + '\''
-                + '}';
+    public void setProgramesEntreteniment(String programesEntreteniment) {
+        this.programesEntreteniment = programesEntreteniment;
     }
 }

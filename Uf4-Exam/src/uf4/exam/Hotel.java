@@ -2,47 +2,47 @@ package uf4.exam;
 
 public class Hotel {
 
-    private String nombre;
-    private String poblacion;
-    private int numHabitaciones;
-    private double precioBasePersonaNoche;
+    private String nom;
+    private String poblacio;
+    private int numHabitacions;
+    private double preuBase;
 
-    public Hotel(String nombre, String poblacion, int numHabitaciones, double precioBasePersonaNoche) {
-        this.nombre = nombre;
-        this.poblacion = poblacion;
-        this.numHabitaciones = numHabitaciones;
-        this.precioBasePersonaNoche = precioBasePersonaNoche;
+    public Hotel(String nom, String poblacio, int numHabitacions, double preuBase) {
+        this.nom = nom;
+        this.poblacio = poblacio;
+        this.numHabitacions = numHabitacions;
+        this.preuBase = preuBase;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNom() {
+        return nom;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
-    public String getPoblacion() {
-        return poblacion;
+    public String getPoblacio() {
+        return poblacio;
     }
 
-    public void setPoblacion(String poblacion) {
-        this.poblacion = poblacion;
+    public void setPoblacio(String poblacio) {
+        this.poblacio = poblacio;
     }
 
-    public int getNumHabitaciones() {
-        return numHabitaciones;
+    public int getNumHabitacions() {
+        return numHabitacions;
     }
 
-    public void setNumHabitaciones(int numHabitaciones) {
-        this.numHabitaciones = numHabitaciones;
+    public void setNumHabitacions(int numHabitacions) {
+        this.numHabitacions = numHabitacions;
     }
 
-    public double getPrecioBasePersonaNoche() {
-        return precioBasePersonaNoche;
+    public double getPreuBase() {
+        return preuBase;
     }
 
-    public void setPrecioBasePersonaNoche(double precioBasePersonaNoche) {
-        this.precioBasePersonaNoche = precioBasePersonaNoche;
+    public void setPreuBase(double preuBase) {
+        this.preuBase = preuBase;
     }
 }
